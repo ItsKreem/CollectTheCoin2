@@ -15,9 +15,9 @@ public class ScoreGui : SceneLoader
 
         ScoreUI.text = "SCORE: " + score.ToString();
 
-        if (score >= 10000)
+        if (score >= 1000)
         {
-            GoHome();
+            WinGame();
         }
     }
 }
